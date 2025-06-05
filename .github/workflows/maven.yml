@@ -39,9 +39,3 @@ jobs:
        with:
             name: my-java-app
             path: target/*.jar
-
-    - name: DOWNLOAD JAR FILE
-      uses: actions/download-artifact@v4
-      with:
-            name: my-java-app
-            path: target/*.jar
